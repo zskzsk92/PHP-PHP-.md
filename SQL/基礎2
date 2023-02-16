@@ -1,0 +1,12 @@
+### DISTINCT
+DISTINCTを用いると、検索結果から重複するデータを除くことが可能。
+```
+SLECT DISTINCT(name)
+FROM purchases;
+```
+
+### 四則演算
+```
+SELECT name,price*1.08
+FROM purchases;
+```
